@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gainsboro;
+}
+
+.container{
+    width: 60%;
+    background-color: rgb(59, 58, 58);
+    height: 500px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+h1{
+    color: ivory;
+    font-size: 22px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+}
+
+.messages{
+    width: 90%;
+    background-color: rgb(228, 228, 62);
+    height: 250px;
+    margin: 10px auto;
+    overflow: auto;
+}
+
+.message{
+    list-style: none;
+    padding: 8px;
+    border-bottom: 1px solid silver;
+}
+
+.formulaire{
+    width: 90%;
+    margin: 10px auto;
+}
+
+input{
+    width: 48%;
+    height: 25px;
+    padding: 3px;
+    margin-bottom: 20px;
+    background-color: wheat;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type=submit]{
+    width: 98%;
+    height: 30px;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(245, 214, 158);
+}
